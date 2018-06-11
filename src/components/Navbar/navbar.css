@@ -1,0 +1,29 @@
+nav {
+  height: 50px;
+  color: gray;
+  /* background: lightblue; */
+}
+
+.social {
+  float: left;
+}
+
+img {
+  height: 40px;
+  margin: 5px;
+}
+
+.brand {
+  float: right;
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Baloo', cursive;
+font-family: 'Modak', cursive; */
