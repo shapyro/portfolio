@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './components/Navbar/navbar'
-// import About from './components/About/about_me'
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import App from './components/App/app'
+import reducers from './reducers';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        {/* <About /> */}
-      </div>
-    )
-  }
-}
+const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider>
+  , document.querySelector('.container'));

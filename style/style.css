@@ -1,4 +1,11 @@
 * {
   box-sizing: border-box;
-  margin: auto 0;
+}
+
+body {
+  margin: auto;
+}
+
+Nav {
+  background: purple;
 }

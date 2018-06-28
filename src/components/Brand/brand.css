@@ -1,0 +1,34 @@
+.brand {
+  float: right;
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.brand:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  border-top: thick 2em;
+  border-top-color: lightslategrey;
+  padding: 4px;
+  background: white;
+  position: fixed;
+  top: 50px;
+  right: .01px;
+  box-shadow: 5px 15px 15px 0px lightslategrey;
+  transition: 0.5s transform ease;
+	transition: -webkit-transform 0.5s ease
+}
+
+.dropdown-item {
+  margin-bottom: 10px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+  color: dodgerblue;
+  text-decoration-style: wavy;
+}

@@ -1,24 +1,29 @@
+body {
+  margin: auto;
+}
+
 nav {
   height: 50px;
   color: gray;
-  /* background: lightblue; */
+  box-shadow: 10px 10px 20px 2px lightslategrey;
 }
 
 .social {
-  float: left;
+  position: fixed;
+  left: 10px;
 }
 
 img {
   height: 40px;
   margin: 5px;
+  background: transparent;
 }
 
-.brand {
-  float: right;
-  font-family: 'Comfortaa', cursive;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 10px;
+img:hover {
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  transform: scale(1.10);
 }
 
 
