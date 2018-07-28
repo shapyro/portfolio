@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './brand.css'
 
 class Brand extends Component {
@@ -27,8 +28,24 @@ class Brand extends Component {
         <div className='brand' onClick={this.handleClick}>
           <div>shapyro</div>
           <div className='dropdown'>
-            <div className='dropdown-item'>portfolio</div>
-            <div className='dropdown-item'>about</div>
+            <div className='dropdown-item'>
+              <Link 
+                className='portfolio-dropdown dropit' 
+                style={{ textDecoration: 'none' }}
+                to="/portfolio"
+                >
+                  portfolio
+              </Link>   
+            </div>
+            <div className='dropdown-item'>
+              <Link 
+                className='about-dropdown dropit' 
+                style={{ textDecoration: 'none' }}
+                to="/"
+                >
+                  about
+              </Link>
+            </div>
           </div>
         </div>
       )

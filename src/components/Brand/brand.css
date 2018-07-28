@@ -27,8 +27,18 @@
   margin-bottom: 10px;
 }
 
-.dropdown-item:hover {
+.dropit {
+  cursor: pointer;
+  color: gray;
+  text-decoration-style: none;
+}
+
+.dropit:hover {
   cursor: pointer;
   color: dodgerblue;
-  text-decoration-style: wavy;
+  text-decoration-style: none;
+}
+
+.dropit:active {
+  text-decoration-style: none;
 }
