@@ -11,6 +11,19 @@ class ProjectDetail extends Component {
     } 
   }
 
+  renderTechUsed() {
+    return this.props.project.techUsed.map((tech) => {
+      return (
+        <li
+          key={tech}
+          className="techName"
+        >
+          {tech}
+        </li>
+      )
+    })
+  }
+
 
   render() {
     if (!this.props.project) {
@@ -30,7 +43,9 @@ class ProjectDetail extends Component {
             onClick={this.handleClick}
           />
         </div>
-        <div>Tech Used: {this.props.project.techUsed}</div>
+        <ul className="tech-list">
+          {this.renderTechUsed()}
+        </ul>
       </div>
     )
   }

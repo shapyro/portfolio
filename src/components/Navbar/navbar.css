@@ -9,7 +9,7 @@ nav {
 }
 
 .social {
-  position: fixed;
+  position: absolute;
   left: 10px;
 }
 

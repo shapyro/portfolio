@@ -10,7 +10,20 @@
 
 .project-image {
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   height: 100%;
   width: 100%;
+}
+.tech-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.techName {
+  width: 10%;
+  padding: 2%;
+  background: lightgrey;
+  border-radius: 0.25em;
 }
