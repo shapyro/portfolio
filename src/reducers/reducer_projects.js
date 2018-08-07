@@ -2,6 +2,7 @@ const mlp = './img/mlp.png'
 const mongoScrape = './img/mongoScrape.png'
 
 export default function() {
+  // a big array of my project info
   return [
     {
       name: 'Memory Game',

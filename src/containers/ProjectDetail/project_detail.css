@@ -7,18 +7,31 @@
   text-align: center; 
 }
 
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: grey;
+}
+
+hr {
+  width: 50%;
+}
+
+.description {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
 
 .project-image {
   margin-top: 10%;
   margin-bottom: 5%;
-  height: 100%;
-  width: 100%;
+  height: 500px
 }
 .tech-list {
+  padding: 0;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-
 }
 
 .techName {
@@ -26,4 +39,5 @@
   padding: 2%;
   background: lightgrey;
   border-radius: 0.25em;
+  font-family: 'Ubuntu', sans-serif;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectProject, unselectProjects } from '../../actions/index';
+import { selectProject } from '../../actions/index';
 import { bindActionCreators } from 'redux';
 
 import './project_list.css'

@@ -1,6 +1,29 @@
 .list-group {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 50px 10px 50px 10px;
+  padding: 0;
 }
+
+.list-group-item {
+  padding: 15px;
+  background-color: dodgerblue;
+  margin: 1%;
+  border-radius: .25em;
+  font-family: 'Ubuntu', sans-serif;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: black thin; */
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  background: lightgrey;
+}
+
+.list-group-item:foucs {
+  background: lightgrey;
+}
+
+

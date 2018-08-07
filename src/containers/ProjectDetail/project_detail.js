@@ -33,7 +33,8 @@ class ProjectDetail extends Component {
     return (
       <div className="project-details">
         <h3>{this.props.project.name}</h3>
-        <div>{this.props.project.description}</div>
+        <hr/>
+        <div className="description">{this.props.project.description}</div>
         <div className="image">
           <img 
             className="project-image"
