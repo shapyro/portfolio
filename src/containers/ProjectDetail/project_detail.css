@@ -1,0 +1,16 @@
+.project-details {
+  /* display: flex;
+  justify-content: center; */
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+
+.project-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 100%;
+  width: 100%;
+}

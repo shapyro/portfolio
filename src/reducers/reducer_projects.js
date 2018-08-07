@@ -1,5 +1,5 @@
-const mlp = '../../public/img/mpg.png'
-const mongoScrape = '../../public/img/mongoScrape.png'
+const mlp = './img/mlp.png'
+const mongoScrape = './img/mongoScrape.png'
 
 export default function() {
   return [
