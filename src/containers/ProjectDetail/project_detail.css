@@ -33,6 +33,7 @@ hr {
 }
 .tech-list {
   padding: 0;
+  margin-bottom: 5%;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -40,7 +41,7 @@ hr {
 
 .techName {
   width: 10%;
-  padding: 2%;
+  padding: 1.5%;
   background: lightgrey;
   border-radius: 0.25em;
   font-family: 'Ubuntu', sans-serif;

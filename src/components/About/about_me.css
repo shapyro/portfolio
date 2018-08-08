@@ -1,6 +1,10 @@
+.hello {
+  margin-bottom: 5%;
+}
+
 .about {
   text-align: center;
-  width: 50%;
+  width: 75%;
   margin: auto;
   padding-top: 5%;
   display: flex;
@@ -9,11 +13,34 @@
 }
 
 .about-content {
-  /* font-family: 'Ubuntu+Mono', sans-serif; */
-  font-size: 18px;
-  padding: 5%;
+  font-family: 'Ubuntu+Mono', sans-serif;
 }
 
 .line {
+  margin-bottom: 1%;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+  margin-left: 1%;
+}
+
+.status {
+  font-weight: bold;
+  /* font-size: 18px; */
+  color: dodgerblue;
   margin: 10%;
 }
+
+.status:hover {
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  transform: scale(1.10);
+}
+

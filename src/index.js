@@ -9,21 +9,12 @@ import About from './components/About/about_me';
 import App from './components/App/app'
 import reducers from './reducers';
 
-// import backImg from './data/images/bananas.png'
-
-// const backStyle = {
-//   backgroundImage: `url(${backImg})`
-// }
 
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    {/* <div>
-      <NavBar />
-    </div> */}
-
     <BrowserRouter>
       <div>
         <NavBar />

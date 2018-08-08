@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './brand.css'
 
+import backImg from '../../data/images/px_by_Gre3g.png'
+
+const backStyle = {
+  backgroundImage: `url(${backImg})`
+}
+
 class Brand extends Component {
   constructor(props) {
     super(props);
@@ -12,7 +18,6 @@ class Brand extends Component {
   }
 
   handleClick = (e) => {
-    console.log(e.target)
     this.setState({ expanded: !this.state.expanded })
   }
 
@@ -27,7 +32,7 @@ class Brand extends Component {
       return (
         <div className='brand' onClick={this.handleClick}>
           <div>shapyro</div>
-          <div className='dropdown'>
+          <div className='dropdown' style={backStyle}>
             <div className='dropdown-item'>
               <Link 
                 className='portfolio-dropdown dropit' 
