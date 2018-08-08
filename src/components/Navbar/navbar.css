@@ -1,8 +1,9 @@
-body {
+/* body {
   margin: auto;
-}
+} */
 
 nav {
+  background-color: white;
   height: 50px;
   color: gray;
   box-shadow: 10px 10px 20px 2px lightslategrey;

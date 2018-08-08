@@ -7,6 +7,10 @@
   text-align: center; 
 }
 
+.select-project {
+  text-align: center;
+}
+
 h3 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;

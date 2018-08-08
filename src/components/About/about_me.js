@@ -1,10 +1,32 @@
 import React, { Component } from 'react';
+import './about_me.css'
 
 class About extends Component {
   render() {
     return (
-      <div>
-        The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
+      <div className="about">
+        <h3>Hello, my name is Brandon Shapiro.</h3>
+        <div className="about-content">
+          <div className="line">I’m a full stack web developer based in <span className="highlight">Austin, TX.</span></div>
+
+          <div className="line">I design and build single-page web applications that can run across multiple devices.</div> 
+
+          <div className="line">
+            Whether it’s building an app to manage data, improve a process, build online presence, or just have some fun, I can help.
+          </div>
+
+          <div className="line">
+            CSS, Express, Flexbox, HTML, JavaScript, Mongo, MySQL, Node, React, and Redux are some of my specialties.
+          </div>
+            
+          <div className="line">
+            Feel free to reach out if you’d like to talk about a project or get in touch: 
+
+            <a className="highlight email"> shapiro.brandonf@gmail.com</a>
+          </div>
+
+          <div className="line">I am currently available for freelance work.</div>
+        </div>
       </div>
 
     )

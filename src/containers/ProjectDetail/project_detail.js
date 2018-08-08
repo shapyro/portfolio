@@ -27,7 +27,7 @@ class ProjectDetail extends Component {
 
   render() {
     if (!this.props.project) {
-      return <div>Select a Project</div>
+      return <div className="select-project">Select a Project</div>
     }
 
     return (
