@@ -32,15 +32,15 @@
 
 .status {
   font-weight: bold;
-  /* font-size: 18px; */
+  font-size: 21px;
   color: dodgerblue;
   margin: 10%;
 }
 
-.status:hover {
+/* .status:hover {
   cursor: pointer;
   background: transparent;
   position: relative;
   transform: scale(1.10);
-}
+} */
 
