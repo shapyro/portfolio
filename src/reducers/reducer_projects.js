@@ -7,6 +7,7 @@ const buddy = './img/badass.png'
 const burger = './img/burger.png'
 const hang = './img/hangmanGame.gif'
 const mgmt = './img/bamazonManager.gif'
+const cartman = './img/cartman.png'
 
 export default function() {
   // a big array of my project info
@@ -73,6 +74,13 @@ export default function() {
       site: 'https://github.com/shapyro/Bamazon/',
       image: mgmt,
       techUsed: ['JS', 'MySQL', 'Node']
+    },
+    {
+      name: 'Click-A-Cartman',
+      description: 'A SouthPark Game for the Ages',
+      site: 'https://shapyro.github.io/week-4-game/',
+      image: cartman,
+      techUsed: ['CSS', 'HTML', 'JS']
     }
   ]
 }

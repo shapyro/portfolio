@@ -4,6 +4,7 @@ import './about_me.css'
 class About extends Component {
   render() {
     return (
+      // some stuff about me
       <div className="about">
         <h3 className="hello">Hello, my name is Brandon Shap<span classnName="long-i">i</span>ro.</h3>
         <div className="about-content">
@@ -12,7 +13,7 @@ class About extends Component {
           <div className="line">I design and build single-page web applications that can run across multiple devices.</div> 
 
           <div className="line">
-            Whether it’s building an app to manage data, improve a process, build online presence, or just have some fun, <span className="highlight">I can help.</span>
+            Whether it’s building an app to manage data, improve a process, build your online presence, or just have some fun, <span className="highlight">I can help.</span>
           </div>
 
           <div className="line">
