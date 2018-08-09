@@ -11,11 +11,12 @@
 }
 
 .dropdown {
+  z-index: 1;
   border-top: thick 2em;
   border-top-color: lightslategrey;
   padding: 4px;
   background: white;
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: .01px;
   box-shadow: 5px 15px 15px 0px lightslategrey;
