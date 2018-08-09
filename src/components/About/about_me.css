@@ -1,5 +1,10 @@
 .hello {
   margin-bottom: 5%;
+  font-size: 40px;
+}
+
+span .long-i {
+  color: black;
 }
 
 .about {
@@ -32,7 +37,7 @@
 
 .status {
   font-weight: bold;
-  font-size: 21px;
+  font-size: 20px;
   color: dodgerblue;
   margin: 10%;
 }
