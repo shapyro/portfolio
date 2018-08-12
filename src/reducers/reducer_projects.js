@@ -42,7 +42,7 @@ export default function() {
     },
     {
       name: 'Trivia Game',
-      description: 'A timed trivia game of random things',
+      description: 'A timed trivia game of cosmic proportions',
       site: 'https://shapyro.github.io/TriviaGame/',
       image: trivia,
       techUsed: ['CSS', 'HTML', 'JS']
@@ -56,7 +56,7 @@ export default function() {
     },
     {
       name: 'Chomp Burger',
-      description: 'Make and Devour Burgurs',
+      description: 'Make and Devour Burgers',
       site: 'https://lit-dawn-22928.herokuapp.com/',
       image: burger,
       techUsed: ['CSS', 'Express', 'HTML', 'JS', 'MySQL', 'Node']
