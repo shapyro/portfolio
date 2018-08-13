@@ -1,8 +1,9 @@
 .list-group {
+  z-index: 1;
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  margin: 4% 0 3% 3%; 
+  margin: 10% 0 3% 3%; 
   padding: 0;
   width: 25%;
 }
