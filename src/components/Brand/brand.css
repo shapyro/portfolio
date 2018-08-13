@@ -11,7 +11,7 @@
 }
 
 .dropdown {
-  z-index: 1;
+  z-index: 3;
   border-top: thick 2em;
   border-top-color: lightslategrey;
   padding: 4px;
