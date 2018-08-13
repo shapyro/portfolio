@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Brand from '../Brand/brand'
 import GitHub from '../../data/images/GitHub-Mark-Light-64px.png'
-import Twitter from '../../data/images/Twitter_Social_Icon_Rounded_Square_Color.png'
 import LinkedIn from '../../data/images/In-2C-41px-R.png'
 import './navbar.css'
 
@@ -25,7 +24,6 @@ class Navbar extends Component {
         <div className='social'>
           <span id='socials'>
             <img id='sosh' alt='https://github.com/shapyro' src={GitHub} onClick={this.handleClick}/>
-            <img id='sosh' alt='https://twitter.com/shapyro' src={Twitter} onClick={this.handleClick}/>
             <img id='sosh' alt='https://www.linkedin.com/in/brandonshapiro/' src={LinkedIn} onClick={this.handleClick}/>
           </span>
         </div>
