@@ -1,7 +1,7 @@
 .project-details {
   z-index: 2;
   position: fixed;
-  top: 8%;
+  top: 10%;
   right: 4%;
   width: 65%;
   margin-bottom: 5%;
@@ -53,11 +53,12 @@ h3 {
   max-height: 500px;
   max-width: 900px;
   border-radius: 5px;
+  box-shadow: 0 5px 40px #999, 0 3px 10px #999;
 }
 
-.project-image:hover {
+/* .project-image:hover {
   box-shadow: 0 3px 40px #999, 0 3px 10px #999;
-}
+} */
 .tech-list {
   list-style-type: none;
   display: flex;
@@ -80,4 +81,13 @@ h3 {
   box-shadow: 0 1px 20px #999, 0 1px 3px #999;
   text-align: center;
   /* opacity: 0.4; */
+}
+
+@media screen 
+  and (device-height: 375px)
+  and (device-width: 812px) {
+  .project-image {
+    width: 40%;
+    height: 40%;
+  }
 }
