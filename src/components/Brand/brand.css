@@ -1,4 +1,5 @@
 .brand {
+  z-index: 3;
   float: right;
   font-family: 'Comfortaa', cursive;
   font-size: 25px;
@@ -42,4 +43,21 @@
 
 .dropit:active {
   text-decoration-style: none;
+}
+
+
+@media screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    .brand {
+      font-size: 50px;
+      padding: 20px;
+    }
+    .dropdown {
+      top: 100px;
+      padding: 10px;
+    }
+    .dropdown-item {
+      margin-bottom: 20px;
+    }
 }

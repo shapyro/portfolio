@@ -27,3 +27,17 @@ img:hover {
   position: relative;
   transform: scale(1.10);
 }
+
+
+@media screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    nav {
+      height: 100px;
+      margin-bottom: 10%;
+    }
+    .sosh {
+      height: 80px;
+      margin: 10px;
+    }
+}

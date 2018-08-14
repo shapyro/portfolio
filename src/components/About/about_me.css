@@ -3,8 +3,9 @@
   font-size: 40px;
 }
 
-span .long-i {
+.long-i {
   color: black;
+  font-weight: bold;
 }
 
 .about {
@@ -40,4 +41,17 @@ span .long-i {
   font-size: 20px;
   color: dodgerblue;
   margin: 10%;
+}
+
+
+@media screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    .about {
+      padding-top: 10%;
+      width: 100%;
+    }
+    .line {
+      margin-bottom: 5%;
+    }
 }
