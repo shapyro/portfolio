@@ -6,7 +6,7 @@ class About extends Component {
     return (
       // some stuff about me
       <div className="about">
-        <h3 className="hello">Hello, my name is Brandon Shap<span classnName="long-i">i</span>ro.</h3>
+        <h3 className="hello">Hello, my name is Brandon Shap<span className="long-i">i</span>ro.</h3>
         <div className="about-content">
           <div className="line">I’m a full stack web developer based in <span className="highlight">Austin, TX.</span></div>
 
