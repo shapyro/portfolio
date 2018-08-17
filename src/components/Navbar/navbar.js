@@ -23,8 +23,8 @@ class Navbar extends Component {
       <nav style={backStyle}>
         <div className='social'>
           <span id='socials'>
-            <img className='sosh' alt='https://github.com/shapyro' src={GitHub} onClick={this.handleClick}/>
-            <img className='sosh' alt='https://www.linkedin.com/in/brandonshapiro/' src={LinkedIn} onClick={this.handleClick}/>
+            <img id='sosh' className='sosh' alt='https://github.com/shapyro' src={GitHub} onClick={this.handleClick}/>
+            <img id='sosh' className='sosh' alt='https://www.linkedin.com/in/brandonshapiro/' src={LinkedIn} onClick={this.handleClick}/>
           </span>
         </div>
         <Brand />
