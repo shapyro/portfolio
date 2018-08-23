@@ -1,6 +1,7 @@
 const mlp = './img/mylilpony.gif'
 const mongoScrape = './img/mongoScrape.png'
 const notify = './img/notify2.gif'
+const dolo = './img/dolo.png'
 const giphy = './img/GiphyBoard.gif'
 const trivia = './img/triviaGame.gif'
 const buddy = './img/badass.png'
@@ -32,6 +33,13 @@ export default function() {
       site: 'https://shapyro.github.io/notify/',
       image: notify,
       techUsed: ['CSS', 'HTML', 'JS']
+    },
+    {
+      name: 'Dolo',
+      description: 'Donation Location App',
+      site: 'http://www.dolo.io/',
+      image: dolo,
+      techUsed: ['CSS', 'Express', 'HTML', 'JS', 'Node', 'MySQL']
     },
     {
       name: 'Giphy Board',
