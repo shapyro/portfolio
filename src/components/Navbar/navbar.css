@@ -1,0 +1,43 @@
+
+nav {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  color: gray;
+  box-shadow: 10px 10px 20px 2px lightslategrey;
+  margin-bottom: 5%;
+}
+
+.social {
+  position: absolute;
+  left: 10px;
+}
+
+img {
+  height: 40px;
+  margin: 5px;
+  background: transparent;
+}
+
+img:hover {
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  transform: scale(1.10);
+}
+
+
+@media screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    nav {
+      height: 100px;
+      margin-bottom: 10%;
+    }
+    .sosh {
+      height: 80px;
+      margin: 10px;
+    }
+}

@@ -1,0 +1,60 @@
+.hello {
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+
+.long-i {
+  color: black;
+  font-weight: bold;
+}
+
+.about {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content {
+  font-family: 'Ubuntu+Mono', sans-serif;
+}
+
+.line {
+  margin-bottom: 1%;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+  margin-left: 1%;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 20px;
+  color: dodgerblue;
+  margin: 10%;
+}
+
+
+@media screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    .about {
+      padding-top: 10%;
+      width: 100%;
+    }
+    .line {
+      margin-bottom: 5%;
+    }
+    .about-content {
+      font-size: 25px;
+    }
+}
