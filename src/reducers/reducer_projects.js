@@ -1,14 +1,14 @@
-const mlp = './img/mylilpony.gif'
-const mongoScrape = './img/mongoScrape.png'
-const notify = './img/notify2.gif'
-const dolo = './img/dolo.png'
-const giphy = './img/GiphyBoard.gif'
-const trivia = './img/triviaGame.gif'
-const buddy = './img/badass.png'
-const burger = './img/burger.png'
-const hang = './img/hangmanGame.gif'
-const mgmt = './img/bamazonManager.gif'
-const cartman = './img/cartman.png'
+const mlp = './img/mylilpony.gif';
+const mongoScrape = './img/mongoScrape.png';
+const notify = './img/notify2.gif';
+const dolo = './img/dolo.png';
+const giphy = './img/GiphyBoard.gif';
+const trivia = './img/triviaGame.gif';
+const buddy = './img/badass.png';
+const burger = './img/burger.png';
+const hang = './img/hangmanGame.gif';
+const mgmt = './img/bamazonManager.gif';
+const cartman = './img/cartman.png';
 
 export default function() {
   // a big array of my project info
@@ -90,5 +90,5 @@ export default function() {
       image: cartman,
       techUsed: ['CSS', 'HTML', 'JS']
     }
-  ]
+  ];
 }
