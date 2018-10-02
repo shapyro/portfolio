@@ -1,63 +1,81 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import ProjectImage from '../ProjectImage/project_image';
+
 import './project_detail.css';
 
-function imageLoaded(parentNode) {
-  console.log(parentNode);
-  const img = parentNode.querySelector('img');
-  console.log('img: ' + img.src);
-  console.log('img: ' + img.complete);
-  if (!img.complete) {
-    console.log('not done yet');
-    return false;
-  }
+// function imageLoaded(parentNode) {
+//   // console.log(parentNode);
+//   const img = parentNode.querySelector('img');
+//   // console.log('img: ' + img.src);
+//   // console.log('img: ' + img.complete);
+//   if (!img.complete) {
+//     console.log('not done yet');
+//     return false;
+//   }
 
-  // console.log('imageLoaded');
-  return true;
-}
+//   console.log('imageLoaded');
+//   return true;
+// }
 
 class ProjectDetail extends Component {
-  constructor() {
-    super();
-    this.state = {
-      loading: true
-    };
-  }
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     loading: true
+  //   };
+  // }
 
-  handleImageChange = () => {
-    console.log(this.imageElement);
-    this.setState({
-      loading: !imageLoaded(this.imageElement)
-    });
-  };
+  // componentDidUpdate() {
+  //   console.log('component updated');
+  // }
 
-  renderSpinner() {
-    if (!this.state.loading) {
-      return null;
-    }
-    return <span className="spinner">spinner</span>;
-  }
+  // handleImageChange = e => {
+  //   e.preventDefault();
+  //   // console.log(e);
+  //   // console.log(this.imageElement);
+  //   this.setState({
+  //     loading: !imageLoaded(this.imageElement)
+  //   });
+  // };
 
-  renderImage(image) {
-    console.log('rendering image');
-    return (
-      <div>
-        <img
-          className="project-image"
-          id="projectLink"
-          src={image}
-          alt={this.props.project.site}
-          onLoad={this.handleImageChange}
-          onError={this.handleImageChange}
-          onClick={this.handleClick}
-        />
-      </div>
-    );
+  // renderSpinner() {
+  //   if (!this.state.loading) {
+  //     return null;
+  //   }
+  //   return <span className="spinner">spinner</span>;
+  // }
+
+  // renderImage(image) {
+  //   // console.log('rendering image');
+  //   return (
+  //     <div>
+  //       <img
+  //         className="project-image"
+  //         id="projectLink"
+  //         src={image}
+  //         alt={this.props.project.site}
+  //         onLoad={this.handleImageChange}
+  //         onError={this.handleImageChange}
+  //         onClick={this.handleClick}
+  //       />
+  //     </div>
+  //   );
+  // }
+
+  handleImageStatus(parentNode) {
+    console.log(parentNode);
+    // const image = imageElement.querySelector('img');
+    // console.log(image);
+    // if (image.complete) {
+    //   console.log('complete');
+    // }
   }
 
   handleClick = e => {
     e.preventDefault();
+    console.log(e);
     if (e.target.id === 'projectLink') {
       window.open(e.target.alt, '_blank');
     }
@@ -88,17 +106,24 @@ class ProjectDetail extends Component {
             this.imageElement = element;
           }}
         >
-          {this.renderSpinner()}
+          {/* {this.renderSpinner()}
           <div className="image">
-            {this.renderImage(this.props.project.image)}
-            {/* <img
+            {this.renderImage(this.props.project.image)} */}
+          <ProjectImage
+            image={this.props.project.image}
+            onClick={this.handleClick}
+            id="projectLink"
+            alt={this.props.project.site}
+          />
+          {/* <img
             className="project-image"
             id="projectLink"
             src={this.props.project.image}
             alt={this.props.project.site}
             onClick={this.handleClick}
-            /> */}
-          </div>
+            onLoad={this.handleImageStatus(this.imageElement)}
+          /> */}
+          {/* </div> */}
         </div>
         <ul className="tech-list">{this.renderTechUsed()}</ul>
       </div>
