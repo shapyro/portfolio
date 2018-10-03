@@ -46,36 +46,7 @@ h3 {
   font-weight: bold;
 }
 
-/* .spinner {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; Safari
-  animation: spin 2s linear infinite;
-}
-
-Safari
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
-
-/* .project-image {
+#projectLink {
   margin: 5% 0 2% 0;
   width: 90%;
   height: 90%;
@@ -83,10 +54,17 @@ Safari
   max-width: 900px;
   border-radius: 5px;
   box-shadow: 0 5px 40px #999, 0 3px 10px #999;
-} */
+}
+
+#projectLink:hover {
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  transform: scale(1.025);
+}
 
 .tech-list {
-  margin-right: 10%;
+  margin-right: 05%;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
