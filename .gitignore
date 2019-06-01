@@ -1,4 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
+get-pip.py
+.env
 
 # dependencies
 /node_modules
